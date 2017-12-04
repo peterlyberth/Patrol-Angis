@@ -4,6 +4,6 @@
   <dataIndexEntries>
     <dataIndexEntry filePath="Patrol_Angis.gstz" dataType="gamesystem" dataId="5a3d-97ad-1a64-4197" dataName="Patrol Angis" dataBattleScribeVersion="2.01" dataRevision="10"/>
     <dataIndexEntry filePath="Muster.catz" dataType="catalogue" dataId="0586-b8a8-6207-f4cb" dataName="Muster" dataBattleScribeVersion="2.01" dataRevision="5"/>
-    <dataIndexEntry filePath="The_retained.catz" dataType="catalogue" dataId="1249-8b4a-8541-3fb9" dataName="The retained" dataBattleScribeVersion="2.01" dataRevision="6"/>
+    <dataIndexEntry filePath="The_retained.catz" dataType="catalogue" dataId="1249-8b4a-8541-3fb9" dataName="The retained" dataBattleScribeVersion="2.01" dataRevision="10"/>
   </dataIndexEntries>
 </dataIndex>
