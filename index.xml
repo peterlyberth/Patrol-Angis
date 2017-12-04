@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.01" name="Patrol Angis" indexUrl="https://www.dropbox.com/s/1vzjod9pqieegwv/index.bsi?dl=0" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <repositoryUrls/>
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Patrol_Angis.gstz" dataType="gamesystem" dataId="5a3d-97ad-1a64-4197" dataName="Patrol Angis" dataBattleScribeVersion="2.01" dataRevision="10"/>
+    <dataIndexEntry filePath="Muster.catz" dataType="catalogue" dataId="0586-b8a8-6207-f4cb" dataName="Muster" dataBattleScribeVersion="2.01" dataRevision="5"/>
+    <dataIndexEntry filePath="The_retained.catz" dataType="catalogue" dataId="1249-8b4a-8541-3fb9" dataName="The retained" dataBattleScribeVersion="2.01" dataRevision="3"/>
+  </dataIndexEntries>
+</dataIndex>
