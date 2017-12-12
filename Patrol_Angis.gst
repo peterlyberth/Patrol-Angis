@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="10" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="11" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -496,7 +496,14 @@
         <selectionEntry id="46a6-8acc-a700-b6ad" name="Assaulter" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="2b46-8b5e-a905-b747" name="Assaulter" hidden="false" targetId="6eb9-888c-19a3-f8a6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fff-f666-dae8-f760" type="max"/>
@@ -530,7 +537,14 @@
         <selectionEntry id="859e-a5a9-2fd4-147e" name="Calmer" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="00df-9bda-2490-a8d1" name="Calmer" hidden="false" targetId="f378-d72d-2c72-d169" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2598-3242-0eff-d7c0" type="max"/>
@@ -547,7 +561,14 @@
         <selectionEntry id="4695-e2f9-3f05-a412" name="Commander" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="d51c-25d6-3d3f-416e" name="Commander" hidden="false" targetId="7614-b796-ac01-de34" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1e-2e75-62a4-9c11" type="max"/>
@@ -566,7 +587,14 @@
         <selectionEntry id="10aa-9015-fac0-c031" name="Comms gear" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="37a4-b5b4-d67b-4b29" name="Comms Gear" hidden="false" targetId="0ed4-58c0-2f1a-b451" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2105-527d-5f19-413f" type="max"/>
@@ -584,7 +612,14 @@
         <selectionEntry id="6e8b-5b6e-7b2a-ad7a" name="Loader" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="2ec4-bd87-a2ce-aec8" name="Loader" hidden="false" targetId="ae3b-03da-11b7-eb0f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1930-5e46-32a8-5bbc" type="max"/>
@@ -601,7 +636,14 @@
         <selectionEntry id="fd5a-8fcb-be8a-0325" name="Medic" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="5b21-6bf5-c108-38cb" name="Medic" hidden="false" targetId="c6f5-c42a-136b-622c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c60-027f-b49b-33f6" type="max"/>
@@ -618,7 +660,14 @@
         <selectionEntry id="6d5f-5406-9a4e-818e" name="Patrol" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="2f14-bb0e-9a34-3cd8" name="Patrol" hidden="false" targetId="672d-fbb1-9604-46f4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6595-582a-dae4-dc03" type="max"/>
@@ -635,7 +684,14 @@
         <selectionEntry id="ba27-d916-b8a7-45c6" name="Protector" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c178-6c7b-5f3e-787f" name="Protector" hidden="false" targetId="91af-a1df-ed16-4541" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b9-17a3-785c-cdb6" type="max"/>
@@ -652,7 +708,14 @@
         <selectionEntry id="e4bb-305e-e246-38dd" name="Signalier" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="78d3-9837-f3bc-8a92" name="Signaller" hidden="false" targetId="7b2e-f5b9-4f7f-fb95" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="248f-3396-dae4-e3b3" type="max"/>
@@ -669,7 +732,14 @@
         <selectionEntry id="0a53-be93-5ff6-784a" name="Sniper" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="9cb4-439e-c884-3b66" name="Sniper" hidden="false" targetId="31f7-8a22-1a28-c1ef" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8521-bb56-5438-ef82" type="max"/>
@@ -686,7 +756,14 @@
         <selectionEntry id="62af-4f3d-c21b-53dc" name="Untried" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="bd9c-b9ae-9b4c-fe87" name="Untried" hidden="false" targetId="abec-0d5b-1fdd-7dde" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0b-a17c-39d7-7290" type="max"/>
@@ -703,7 +780,14 @@
         <selectionEntry id="df4c-b689-6960-a918" name="Veteran" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="4d64-4922-760f-b9e1" name="Veteran" hidden="false" targetId="93f1-dacc-25e8-113d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07af-6e50-c536-6472" type="max"/>
@@ -720,7 +804,14 @@
         <selectionEntry id="fcf8-e555-c09c-ccf7" name="Valour" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="2799-bd11-a9d2-4511" name="Valour" hidden="false" targetId="53e0-46c7-781c-44e5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a2-3d63-2ef4-ac60" type="max"/>
@@ -1196,7 +1287,170 @@
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="28c0-4bc6-dd65-f572" name="Ablative Shell" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The finer qualities of armour are outfitted with a thin layer of super dense material which is designed to shatter when impacted by incoming rounds or close combat attacks. The FIRST TIME a Troop Element where all miniatures have this ability is hit by ranged fire (actually hit) or attacked in close combat, then in only this first attack, every miniature in the Troop Element automatically passes one armour save (no need to roll it) provided the armour rating was high enough to allow for a save. Troop Element acts as normal after this. Terms of Use: Included in Armour Type.</description>
+    </rule>
+    <rule id="6eb9-888c-19a3-f8a6" name="Assaulter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is trained into Retained to make them very effective close quarter warriors and to make them even better with their Roaz Axes, Octa Swords and other weapons in melee. Troop Elements where every miniature has Assaulter may make TWO addiitional close combat attacks (3 attacks) instead of one per attack in close combat each time. Double the danger! Terms of Use: Retained and Desteria only. Points Cost: 8 per Miniature.</description>
+    </rule>
+    <rule id="6442-68c8-4ca1-8ccc" name="Baron" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Troop Element is noble and among the best equipped and funded troops of the Prydian Precinct. A Troop Element with Baron is in possession of Cynue Enhancements which allow that miniature to overcome death once per game. If the Baron is killed for the first time, it is not taken out of play but instead returned unharmed (with starting DMR) to play, and the game continues. Terms of Use: Retained or Desteria only. No more than one miniature per Force. Points Cost: 20 per miniature.</description>
+    </rule>
+    <rule id="f378-d72d-2c72-d169" name="Calmer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set goes to those who are naturally not fazed by combat, and it affects Morale in Patrol Angis. If every member of a Troop Element has Calmer then they can no longer fail any morale test in play. If not all members have Calmer, then it has no effect in play. Terms of Use: Any Infantry or Portable Weapon or Infantry Sized Vehicle. Points Cost: 5 per Miniature.</description>
+    </rule>
+    <rule id="e19e-47bc-84cc-0d7e" name="Chameleon Circuit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Alwite and Noblesse powered armours along with some vehicle armours are fitted with the fabulous Chameleon Circuit which when active gives the wearer a sheen of blending in with their surroundings. It’s not perfect, but it has saved many lives, and no knight would be without it. When a miniature with Chameleon Circuit is targeted by ranged fire, they gain a +1 base modifier against all ranged fire directed at them. This only applies if they have NOT MOVED during the turn. Not moved if it’s before or after their own activation; it makes no difference. Terms of Use: Part of Armour.</description>
+    </rule>
+    <rule id="7614-b796-ac01-de34" name="Commander" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description> As outlined in the rules of Patrol Angis, every force (Platoon or Lance) must have a commander nominated. This is a free choice of miniature according to the platoon building rules. Terms of Use: One miniature per platoon or lance only.</description>
+    </rule>
+    <rule id="0ed4-58c0-2f1a-b451" name="Comms Gear" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description> This item of equipment plays no part in normal game actions and is normally only present once in the Commander&apos;s Troop Element of a Force. Comms Gear allows for Off Table Support to be used in scenarios where it is available. Without Comms Gear in play this support is not open to the Force. Terms of Use: One per Platoon or Lance. Points Cost: 15 per Miniature.</description>
+    </rule>
+    <rule id="fe30-898f-ba7d-a348" name="Errant" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Only the finest knights are offered the chance of becoming Errant instead of advancing up the chain of command in the Prydian Army. Becoming Errant means that a Troop Element who all have this ability may wander. Wandering gives the Errant the ability to move the Troop Element up to 5cm per turn for free at any point when the Troop Element is active during the turn, and gives all ranged fire against the Errant a +1 to their base D8 rolls to hit. This movement may not be across impassible terrain or through solid objects. Terms of Use: Knight Errants only. Points Cost: 11 per miniature.</description>
+    </rule>
+    <rule id="0824-19ea-39bd-29ee" name="Fire Projector" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is special weapon type which shoots liquid fire at targets. It is used like any other weapon for the process of ranged fire with the exception that it has a &apos;fire corridor&apos; which is 1cm on either side of the shooing MINIATURE within the Troop Element and reaches to the target. Any miniature friend or foe which is totally or partially covered by this corridor must also see if it is hit by the shot of liquid fire (but no miniature in the Troop Element in possession of the Fire Projector). Any target who is hit is set on fire, and if they survive the initial attack, they must roll 1D8 to see if they can put the fire out. A result of 4 or more is needed with a modifier of -1 if wearing Alwite, -1 if wearing Noblesse, -1 if Veteran, -2 if Infantry Sized Vehicle. If the roll is failed, then another attack roll is made upon them EVERY TIME they activate, and each time after the attack they get a chance to roll again to put the fire out. Terms of Use: Possession of the Weapon.</description>
+    </rule>
+    <rule id="eb23-c1ff-0193-b731" name="Jump Jets" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Most powered armour is fitted with jump jets with popular makes being Icas MkIII or Delver MkXI. A Troop Element equipped with Jump Jets as shown in its statistics may use them to move in play. All members of the Troop Element must have jump jets to use them for movement. Movement is carried out up to twice the maximum distance in centimetres of the Troop Element&apos;s movement rating in any direction with no penalties for terrain. Landing is automatically successful (though be careful you are not shot down!) and may be on any solid playing surface such as ground or the roof of a building. A Troop Element may only use Jump Jets TWICE in play due to fuel restrictions. Terms of Use: Included in Armour Type.</description>
+    </rule>
+    <rule id="ae3b-03da-11b7-eb0f" name="Loader" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is given to trained Troop Elements to aid their fellow soldiers and knights in handling their support rated ranged weapons. Any Troop Element who has Loader may, at a rate of one dedicated Loader per use give a SECOND ranged shot, with the SAME support (S) infantry weapon to another miniature within the Troop Element in a subsequent activation. If this is done, then the Loader may not make ranged fire of their own that turn. Only one second shot per weapon per turn. Terms of Use: Retained or Muster only. Points Cost: 6 per Miniature.</description>
+    </rule>
+    <rule id="a5dc-72a5-4d00-4736" name="Maser Emitter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is a big and heavy and specialised weapon used by Espaten portable weapons in a defensive posture. It emits a field ahead of it that acts as a weak encompassing directed energy weapon. To its front arc this field extends to the range of the weapon in front and half its range to the left and right forming a “square block field” and takes two turns to “charge up” (use tokens to note this). It takes more “ranged fire” action to begin the charging, but after that as long as the gunners are alive and stay with the portable weapon, and if stationary it will continue to charge automatically each turn to maximum.
+Once charged up any Troop Element which enters the field begins to suffer the effects of the Maser and its emissions. Any Troop Element within the field takes an attack on every member of the element at a Strength 1 when the Maser Troop Element activates first time in a turn. If the Troop Element is in field next turn then make the same “attack” again. If the Troop Element is within the field for a third and after that further turns, the attack is treated as a Strength 2. If the gun crew all perish, the emitter turns off, and if the emitter moves the field vanishes immediately. Crew may, once charging is underway, use their own weapons to shoot if they wish. Terms of Use: Possession of the Weapon.</description>
+    </rule>
+    <rule id="c6f5-c42a-136b-622c" name="Medic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is learned by some Troop Elements who are life savers while in the thick of the fight. Any Troop Element who has Medic is able to make an attempt to save a fallen infantry miniature who is within 5cm of their position. One attempt per Medic per turn immediately after their comrade falls. Medic rolls 1D8 and on a result of 5 or more, the infantry miniature is returned to play in its Troop Element with a DMR of 1. All attempts to save must be immediate, and the strength of the shot that killed the target makes no difference. Medic may NOT heal itself. Only one Medic per Troop Element can be used. Terms of Use: May not be given to or used upon Portable Weapons or Infantry Sized Vehicles. Points Cost: 10 per Miniature.</description>
+    </rule>
+    <rule id="8e7b-e3a1-4f8e-1536" name="Mystic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is more of an attitude than a skill set, and on the battlefield it is the domain of Bannerets and a few other select few. A Troop Element with a Mystic in it cannot be fought in close combat by an Infantry foe (this does not apply to Infantry Sized Vehicles) as they are too “spooked out by them”. Any time a close combat situation comes up, the foe will automatically move 5cm directly away from the Mystic containing Troop Element. They can however still shoot at them just fine! Terms of Use: Banneret only. Points Cost: 10 per Miniature.</description>
+    </rule>
+    <rule id="672d-fbb1-9604-46f4" name="Patrol" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is learned by some Troop Elements who are meant to be first on the scene or to anticipate danger while in combat. Any Platoon or Lance, which has at least 50% of its Troop Elements who have Patrol, is able to gain ONE extra free Activation Token in the first turn and second turns only of play in Patrol Angis. This may be used as outlined in the rules. Terms of Use: Retained or Muster only. Points Cost: Free with Patrol Muster or 4 Points per Miniature.</description>
+    </rule>
+    <rule id="91af-a1df-ed16-4541" name="Protector" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is only taken by those who value their own life less than someone else close to them, normally a lesser rank knight to his superior. When a Troop Element with Protector takes damage from ranged fire or close combat, all damage must be assigned to the Protector before the rest of the element until it is killed or out of play. This means all combat during play, not just the first turn or so on. It is a mark of honour to act like this and survive, meaning courage and advancement. Terms of Use: Not Infantry Sized Vehicles unless they are on foot. Points Cost: 0</description>
+    </rule>
+    <rule id="795b-c2ce-acf7-5e0f" name="Shocker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is a special weapon type normally from the battle grade Minstrel Taser family of weapons. A weapon with this attribute makes ranged fire as normal. After seeing which targets are hit, and if any are killed or damaged, a second roll is made for any of the targets who firstly survive and who secondly fit this criteria; they are wearing Powered Armour or are an Infantry Sized Vehicle. These Troop Types are disturbed by the intense electrical field generated by the weapon. Roll 1D8 for the whole Troop Element, and on an 8 it loses one Activate Token from any remaining to it for the turn. This is done for every shot taken. Terms of Use: Possession of the Weapon.</description>
+    </rule>
+    <rule id="7b2e-f5b9-4f7f-fb95" name="Signaller" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is taken by those who want to call down ranged fire upon their enemies. Within a force a Troop Element with Signaller may be used to more accurately guide “Indirect Fire” weapon ranged shots on to their targets. If the Signaller is nearer to the target, by at least 10cm, than the ranged fire shooter, they may act as the Line of Sight (LOS) to the target for the firing Troop Element. This is automatic and costs no actions. Signaller may do this any number of times per turn. Terms of Use: Retained or Muster only. Points Cost: 10 per Miniature.</description>
+    </rule>
+    <rule id="31f7-8a22-1a28-c1ef" name="Sniper" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is learned by some Troop Elements who are naturally talented shots, or who are given the role of sniper by their commander. Any Troop Element who all have Sniper is able to add +1 to the Weapon Strength of any successful ranged fire hits in play. This reflects the increased accuracy of a sniper to cause harm. Terms of Use: Infantry only. Points Cost: 4 per Miniature.</description>
+    </rule>
+    <rule id="abec-0d5b-1fdd-7dde" name="Untried" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This is not a skill set but a sign of inexperience typically among Alouten, but it can also affect new Muster regiments too. It’s also the bane of Planetary Militia forces all over the Precinct. Any Troop Element containing one or more Untried must do the following. Each time an Activate Token is allocated to the Troop Element, roll 1D8 and on a roll of 8 the token is lost to the Force this turn due to hesitation and lack of confidence. Terms of Use: Must be taken by Alouten, and if it suits your campaign, new Muster troops or Planetary Militia. Points Cost: -5 per Miniature.</description>
+    </rule>
+    <rule id="a7d1-8a7a-f27c-73ae" name="New Rule" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="53e0-46c7-781c-44e5" name="Valour" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Given to the most valiant to wave in the faces of any foe, the Banner Bearers of the Muster and Retained are prized indeed. Carrying a large flag decorated with the battle honours of their regiment or Marcher Baron or even Princess Cyon, a Troop Element with Valour can effect the outcome of any conflict. Each time the Valour controlling Troop Element is activated roll 1D8, and on a result of 8 the controlling player gets ONE RE-ROLL of any dice that they throw from that point in the game.
+The owning Troop Element may be activated as many times as allowed by their choices and possessed tokens per turn. Re-Rolls must be declared at that moment when used, and unless another re-roll is an option, the new result must be abided by. There is no limit to the number of re-rolls that can be held by the player from Valour during play, and if Valour is removed from play, all held re-rolls are lost. Terms of Use: One Banner Bearer and Valour per player&apos;s entire force on table. Points Cost: 50 per Miniature in Troop Element.</description>
+    </rule>
+    <rule id="93f1-dacc-25e8-113d" name="Veteran" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This skill set is learned by some Troop Elements who are experienced in battle and have seen a lot of combat. Any Troop Element who has all Veterans as members is able to automatically discard one Re-Motivate token from itself per turn if it has one. This is done when the Re-Motivate token is acquired by the Troop Element. This may be used as outlined in the morale section of the rules. Terms of Use: Open to all your Troop Elements. Points Cost: 7 per Miniature.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="9c02-0ac0-8a7a-25a9" name="MkIV Aketon" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
       <profiles/>
