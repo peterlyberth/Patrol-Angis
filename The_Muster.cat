@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0586-b8a8-6207-f4cb" name="The Muster" revision="7" battleScribeVersion="2.01" gameSystemId="5a3d-97ad-1a64-4197" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes>
+    <profileType id="c35f-321e-2ded-5535" name="Armour">
+      <characteristicTypes>
+        <characteristicType id="017e-a287-23c6-d8d3" name="Armour Rating"/>
+        <characteristicType id="8774-4241-3ea7-bc34" name="Built in countermeasures "/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="dce0-8df2-e098-4d45" name="Muster Squad" hidden="false" targetId="9da1-7072-4f94-fabb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="18ae-fd94-4a27-04cb" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="07c3-a65a-42d9-681c" name="Espaten portable weapon platform" hidden="false" targetId="ff61-b2e0-9cfa-e63f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="83fb-1635-adc5-bdb8" name="New CategoryLink" hidden="false" targetId="2a7b-5813-b3b8-dbe3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6e4b-e8a2-26ba-7c9d" name="Muster Fireteam" hidden="false" targetId="d11d-b4ee-15be-5685" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b3a9-15bc-7c6e-98a9" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4cfe-c4f0-bf4b-2a36" name="Muster Stick" hidden="false" targetId="7817-4083-bb28-e8e0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9823-079e-9dcd-ee0c" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="45fa-ad28-cc44-0ca6" name="Havalock Fireteam" hidden="false" targetId="fc06-2f8a-e875-fb87" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5d4d-e71c-aa77-cb49" name="New CategoryLink" hidden="false" targetId="1acd-574e-80b5-4549" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c42a-9ea9-db8b-87fb" name="Kharmel Warbike fireteam" hidden="false" targetId="82ef-17ac-3f17-7269" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a584-3799-ed4a-d19b" name="New CategoryLink" hidden="false" targetId="1acd-574e-80b5-4549" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9da1-7072-4f94-fabb" name="Muster Squad" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c889-5109-19db-c521" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="da13-6e66-77fb-cf6c" name="Muster infantry" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cd6-6f3f-fcf8-7a0e" type="max"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6235-83fd-4bc9-ebcc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="570a-0502-2f1d-47a5" name="Muster Emeritas" hidden="false" targetId="cd6b-bb95-d723-744c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7d62-2567-292b-9e58" name="Muster Majoris" hidden="false" targetId="caf8-daf5-50ed-08eb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="29ac-00c8-1816-bed2" name="Muster trooper" hidden="false" targetId="e778-f5b5-9163-9b85" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c2f4-0579-9506-2bf2" name="Muster Patrol Trooper" hidden="false" targetId="ff3c-91c9-95fa-31e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbc9-d276-15a5-c643" name="MkIV Aketon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="37cf-5b4d-2ef2-959b" name="MkIV Aketon" hidden="false" targetId="834f-946d-6bc6-e2aa" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ff-b90f-838c-c917" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6381-e272-aec3-afec" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff61-b2e0-9cfa-e63f" name="Espaten portable weapon platform" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7398-161a-8e07-286b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1d28-4931-7ddb-7c34" name="New CategoryLink" hidden="false" targetId="2a7b-5813-b3b8-dbe3" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5fd2-1bf5-2e2d-2fe8" name="Espatan muster" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c439-5860-7d86-e57a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d970-d8fe-212d-270e" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2f80-b920-5dda-d53c" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3650-8b53-fa84-af7d" name="Trooper Weapon Choices" hidden="false" targetId="a917-ee80-a45c-adfd" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="7d32-00a7-b35a-8d62" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="a4f9-9d5d-45d6-e40a" name="MkIV Aketon" hidden="false" targetId="bbc9-d276-15a5-c643" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1fe9-11bb-cce9-352c" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="12.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a9c3-df80-56a4-3865" name="Platform weapons" hidden="false" targetId="fcc5-7095-3ea8-1b64" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="80af-b878-4a89-477f" name="PWP" hidden="false" targetId="9be8-3ba5-976b-a807" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="45.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e778-f5b5-9163-9b85" name="Muster trooper" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="611a-bfcf-998a-6c09" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="13e0-0aaf-7a46-4298" name="Trooper Weapon Choices" hidden="false" targetId="a917-ee80-a45c-adfd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="1524-64cf-66a8-c901" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="34a6-f096-0e58-e5fa" name="MkIV Aketon" hidden="false" targetId="bbc9-d276-15a5-c643" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6ac5-3e6a-80f8-6013" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9be8-3ba5-976b-a807" name="PWP" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4f96-e94f-cd16-5ec8" name="PWP" hidden="false" targetId="0142-1878-48f5-9090" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d2e-0357-8e20-12da" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc3-f342-9407-19f9" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="20.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d11d-b4ee-15be-5685" name="Muster Fireteam" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="222e-872c-cff3-0937" name="Muster Infantry" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6a1f-4aaf-26ff-63e0" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8df-9c9e-2ee4-82e5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7d99-f3a7-c37a-494d" name="Muster Emeritas" hidden="false" targetId="cd6b-bb95-d723-744c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1497-4ee3-c692-3046" name="Muster Majoris" hidden="false" targetId="caf8-daf5-50ed-08eb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="df1d-3248-f595-3958" name="Muster trooper" hidden="false" targetId="e778-f5b5-9163-9b85" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6d79-08fe-fbcf-55e1" name="Muster Patrol Trooper" hidden="false" targetId="ff3c-91c9-95fa-31e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7817-4083-bb28-e8e0" name="Muster Stick" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0d9e-38d2-9c88-bb05" name="Muster Trooper" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fde9-bb22-a800-16bd" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3c7-a587-5506-21c0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5ccb-bf66-0388-8c9b" name="Muster Emeritas" hidden="false" targetId="cd6b-bb95-d723-744c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="34aa-c581-666b-3ba2" name="Muster Majoris" hidden="false" targetId="caf8-daf5-50ed-08eb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2ab8-f613-3501-6f69" name="Muster trooper" hidden="false" targetId="e778-f5b5-9163-9b85" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="48aa-47a2-e76e-633e" name="Muster Patrol Trooper" hidden="false" targetId="ff3c-91c9-95fa-31e4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="caf8-daf5-50ed-08eb" name="Muster Majoris" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="87fa-825c-ba04-84dd" name="Majoris weapon choices" hidden="false" targetId="966d-e948-c60e-4167" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="409d-eb04-d7c0-51a7" name="MkIV Aketon" hidden="false" targetId="bbc9-d276-15a5-c643" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="11fe-b4f6-4a91-7209" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="11.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd6b-bb95-d723-744c" name="Muster Emeritas" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="56b6-b205-fa38-4a90" name="Muster Emeritas" hidden="false" targetId="8908-2101-2a1f-5e0b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5ab0-1aac-55e9-d08a" name="MkIV Aketon" hidden="false" targetId="bbc9-d276-15a5-c643" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="75a3-b3cd-f34d-3837" name="Emeritas weapon choice" hidden="false" targetId="d813-5015-7253-9139" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd7e-3272-93cf-77e4" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ff3c-91c9-95fa-31e4" name="Muster Patrol Trooper" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="7429-e0c4-5c8a-22b1" name="Patrol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3988-1680-4f25-976c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96da-6f10-ee88-5758" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="88f6-3498-3316-6d94" name="Special Rules for Infantry Muster" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="255e-c063-86f7-a287" name="Assaulter" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3076-57a4-66c0-34f1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="8.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="670d-839e-5e00-646f" name="Brawler" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38c0-aac0-5fc8-8e3e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a34-3a07-8f21-26b2" name="Calmer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="296c-ff5a-9143-0730" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="5.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d43-d3cb-179f-60ef" name="Commander" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7998-d8eb-9269-6322" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9eaa-240b-d1da-f75b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4cd7-572c-bacb-3da3" name="Comms gear" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288f-4dbd-8022-150c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69e8-735c-8304-87b7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8170-7f28-2306-1990" name="Loader" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3900-3099-68f4-3932" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="6.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c8b-dedd-a61c-8269" name="Medic" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155b-229d-9e62-d378" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c159-c096-c700-238a" name="Protector" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d747-72e9-f476-41f5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="252f-ed72-5ce4-97b1" name="Signalier" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8357-4743-98e6-2f17" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="38eb-02c5-0536-c660" name="Sniper" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ad-131e-5c56-e408" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e671-c593-456e-199d" name="Untried" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba19-70c2-dab1-712f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="-5.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c3b8-7023-52f2-e69e" name="Veteran" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="469e-fac1-538e-219b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="7.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="608c-426e-b0ee-5a77" name="Valour" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f78-41d6-8979-5209" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="50.0"/>
+                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0a98-72a8-03fc-a022" name="MkIV Aketon" hidden="false" targetId="bbc9-d276-15a5-c643" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1cf-fa84-0189-d990" name="Patrol Trooper Weapon Choices" hidden="false" targetId="bac8-a5e1-04c4-4718" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a065-9c18-6fe4-c99d" name="MkVIII Harness" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a1d0-7f78-11de-87d3" name="MkVIII Harness" hidden="false" targetId="d9ba-b194-f527-b341" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b5-c3d7-1f9e-b3ee" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a0-1314-f848-c7f4" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="30.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893b-9bf8-0f77-f04e" name="Moth Type 88" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f7c7-59e6-65cd-bdd0" name="Moth Type 88" hidden="false" targetId="e5ed-d3bd-faf7-9106" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="70.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2091-734a-05ba-56f8" name="Bodkin AP Howitzer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="de8d-e960-cc1f-25b2" name="Bodkin AP Howitzer" hidden="false" targetId="b790-6883-676a-1c82" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="62.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3638-0fb0-b348-c923" name="Fretan II Rail Gun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="319e-9123-d097-e589" name="Fretan II Rail Gun" hidden="false" targetId="90e6-df2c-6579-cf9c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="59.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c04e-b221-c965-1422" name="Angis AP Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="329f-a686-0ae2-b469" name="Angis AP Cannon" hidden="false" targetId="4a0f-ef26-0cf9-dcb1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="63.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab03-1625-57a5-d420" name="Valerin 15MW Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3192-70c5-9f0d-b9d0" name="Valerin 15MW Cannon" hidden="false" targetId="6010-1efb-021c-a7ce" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="74.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c107-ec33-c383-0b00" name="Havalock Battlesuite" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c0e9-f3dd-622b-fc9b" name="Havalock Battlesuit" hidden="false" targetId="0475-c505-8910-0971" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6dc-d042-3ff6-18ef" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="a418-fb34-ba93-604c" name="Anda Missile Pod " hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3c3e-14a3-f197-c3ae" name="Anda Missile Pod" hidden="false" targetId="4599-3c8e-c7e2-9aa5" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122e-fbcf-8029-af1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1018-1278-25c2-ca61" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="50.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a02-c0f0-cbc0-08ed" name="Impact Gauntlet " hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bd42-2633-b8af-578c" name="Impact Gauntlet" hidden="false" targetId="8005-f83b-e77e-512a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aa5-de3e-d784-9ea8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fa5-dea6-3bcb-5a59" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="40.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c8c1-2308-6f5f-9593" name="MkVIII Harness" hidden="false" targetId="a065-9c18-6fe4-c99d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6231-2ecf-17ce-78b9" name="Havalock Weapon choices" hidden="false" targetId="2704-b513-f150-a063" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc06-2f8a-e875-fb87" name="Havalock Fireteam" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="82f0-df56-43da-d07f" name="Havalock Battlesuite" hidden="false" targetId="c107-ec33-c383-0b00" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abf0-622f-9f59-a863" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44d-6ddd-bd1d-a436" type="max"/>
+            <constraint field="selections" scope="6176-5cb4-8333-b9d8" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad4d-f9e7-51b7-e265" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8c5-5651-a96b-3cbb" name="MkV Harness" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9be4-00eb-16e7-daf5" name="MkV Harness" hidden="false" targetId="2903-b0b8-81da-58d4" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e57-c46d-9c16-5061" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3834-098e-ffae-bcaf" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="20.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="095c-2314-1ed6-6e8c" name="Khamel warbike" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fd2c-af37-54b9-3a16" name="Khamel warbike" hidden="false" targetId="1211-6ae7-5b3c-7fa0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b6a6-9087-f72d-c38f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8123-668e-5a0b-40e9" name="MkV Harness" hidden="false" targetId="b8c5-5651-a96b-3cbb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="db89-5f03-2bf1-1595" name="Khamel Warbike Weapons" hidden="false" targetId="f3b9-aed1-c0f9-c0a8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15dc-cf3b-d30b-3a09" name="Bodkin Type 6 Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e152-b127-dfbd-aa2e" name="Bodkin Type 6 AP" hidden="false" targetId="8972-a4d8-2248-54b0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="23.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f02-196e-0b47-e7d9" name="Ron hi-Ex Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1c61-7bba-612c-2c0f" name="Ron hi-Ex Launcher" hidden="false" targetId="27a6-8ec2-cd2b-756c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="164c-0d7b-5886-4226" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="26.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82ef-17ac-3f17-7269" name="Khamel Warbike fireteam" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f618-5160-4d66-8641" name="Khamel warbike" hidden="false" targetId="095c-2314-1ed6-6e8c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5518-5558-9542-17e6" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6065-9a44-7f0e-fcfe" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a917-ee80-a45c-adfd" name="Trooper Weapon Choices" hidden="false" collective="false" defaultSelectionEntryId="4338-4103-1cba-be90">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5be-95a3-1c45-c5da" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff5-30b1-ac28-34ba" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="d643-b788-db47-a7fa" name="Anvil 888" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9b6b-b189-81d1-190c" name="Anvil 888" hidden="false" targetId="8e5a-bbc0-3796-1784" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0866-7be8-3df3-04c9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="51.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="25de-215b-8c0d-a92f" name="Moth Type 12 Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5624-8590-be42-607b" name="Moth Type 12 Launcher" hidden="false" targetId="a3fb-5e97-c831-3781" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de15-9dd4-15d7-c81e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="37.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4338-4103-1cba-be90" name="Moth Type 6 rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6fdb-9e3f-1258-e950" name="Moth Type 6 rifle" hidden="false" targetId="6658-5a5f-944f-1478" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3095-33c2-671d-25ea" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4eca-5b75-b7d6-4774" name="Moth Type 8 pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8a20-d70d-5336-58a2" name="Moth type 8 Pistol" hidden="false" targetId="3df1-ac98-2370-0077" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da88-b109-2f98-0f8a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="3.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3515-8855-c670-c012" name="Ron hi-Ex Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f027-98ce-b549-a070" name="Ron hi-Ex Launcher" hidden="false" targetId="27a6-8ec2-cd2b-756c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db6-2aa7-973b-9a6e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="26.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4dcf-cbdb-a8ec-c1e5" name="Hobbes Bomb" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f4f3-4fa5-3f95-8c7e" name="Hobbes Bomb" hidden="false" targetId="9d4e-36d1-03cc-47c7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8028-62c5-25df-c8d2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="13.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="fcc5-7095-3ea8-1b64" name="Platform weapons" hidden="false" collective="false" defaultSelectionEntryId="dd2e-e7f7-1a91-e183">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c33c-31c2-a874-d8c9" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a49-3485-d050-227c" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6f8d-07a0-32d3-4542" name="Angis AP Cannon" hidden="false" targetId="c04e-b221-c965-1422" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5887-28a8-f652-75d8" name="Bodkin AP Howitzer" hidden="false" targetId="2091-734a-05ba-56f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af58-a350-fd9f-0f09" name="Fretan II Rail Gun" hidden="false" targetId="3638-0fb0-b348-c923" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cca5-39b5-b06b-d30c" name="Moth Type 88" hidden="false" targetId="893b-9bf8-0f77-f04e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd2e-e7f7-1a91-e183" name="Valerin 15MW Cannon" hidden="false" targetId="ab03-1625-57a5-d420" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d813-5015-7253-9139" name="Emeritas weapon choice" hidden="false" collective="false" defaultSelectionEntryId="f3ac-ee08-8acb-6d18">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8490-2f61-3a20-5efc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9a8-00e4-a0cf-b949" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="9cae-8665-6c91-6392" name="Moth Type 6" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a29c-f014-006d-d27b" name="Moth Type 6 rifle" hidden="false" targetId="6658-5a5f-944f-1478" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cafb-5164-f4a5-5085" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f3ac-ee08-8acb-6d18" name="Moth Type 8 pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="57a1-ef10-05cb-a703" name="Moth type 8 Pistol" hidden="false" targetId="3df1-ac98-2370-0077" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb48-e595-4e71-a277" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="3.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="966d-e948-c60e-4167" name="Majoris weapon choices" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6568-8ce3-c3ce-540b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="5783-3396-2635-7c02" name="Moth Type 8 pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="804f-81fc-0372-b2ba" name="Moth type 8 Pistol" hidden="false" targetId="3df1-ac98-2370-0077" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a46-e001-e557-a536" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="3.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="97dd-4e95-d74e-fce7" name="Octa sword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="40db-c9ee-0db5-8fa0" name="Octa Sword" hidden="false" targetId="1e4b-fc10-a84a-6bab" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216e-307a-345b-5347" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4bfd-36f6-c555-48da" name="Tumbler Mpi" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="07b9-218c-a2b3-3ddd" name="Tumbler Mpi" hidden="false" targetId="a747-1afa-ba22-24dd" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a95-5f8e-1a62-bcc9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="5.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="592b-e8f5-e37c-8e9b" name="Tumbler Smg" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="53ce-e1b0-691d-c464" name="Tumbler Smg" hidden="false" targetId="0ea4-aa68-20f1-5265" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db91-080c-1751-8ae5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="6.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="bac8-a5e1-04c4-4718" name="Patrol Trooper Weapon Choices" hidden="false" collective="false" defaultSelectionEntryId="d9f7-f6c7-c323-4613">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5953-743a-f3df-0490" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="618f-e03c-5727-f9df" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="12f0-d0c0-02c8-7274" name="Anvil 888" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8fd6-b476-af5e-290f" name="Anvil 888" hidden="false" targetId="8e5a-bbc0-3796-1784" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da59-e1b0-d2d5-ed65" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="51.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9f8b-1658-51fa-fadc" name="Moth Type 12 Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8505-583c-a07f-bdbf" name="Moth Type 12 Launcher" hidden="false" targetId="a3fb-5e97-c831-3781" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3251-ee60-884e-3143" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="37.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d9f7-f6c7-c323-4613" name="Moth Type 6 rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bb3f-0177-0347-e946" name="Moth Type 6 rifle" hidden="false" targetId="6658-5a5f-944f-1478" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4017-37ac-edab-ce95" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a82b-9d7d-d941-411a" name="Moth Type 8 pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f5d0-72a3-212a-1b50" name="Moth type 8 Pistol" hidden="false" targetId="3df1-ac98-2370-0077" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407a-3581-39b5-fcc9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="3.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5bf5-cc98-d92e-b1e0" name="Charlatan IV Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f3fd-9c5c-cc33-6cbb" name="Charlatan IV Launcher" hidden="false" targetId="b622-8d1b-baf0-4793" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1262-1668-60ac-3318" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="22.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2704-b513-f150-a063" name="Havalock Weapon choices" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf78-148c-a946-bc63" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a8a-0a09-9cda-c507" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e641-9081-d9e5-e80c" name="Moth Type 88" hidden="false" targetId="893b-9bf8-0f77-f04e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec4-6584-5ce6-68d8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d029-436b-8adf-6313" name="Bodkin AP Howitzer" hidden="false" targetId="2091-734a-05ba-56f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd65-7672-3eb5-1b13" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f813-dafb-b465-ca57" name="Fretan II Rail Gun" hidden="false" targetId="3638-0fb0-b348-c923" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be8-dfec-6fc8-60df" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f68e-3407-c234-3cd8" name="Angis AP Cannon" hidden="false" targetId="c04e-b221-c965-1422" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9af-7242-5c58-9a30" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5bb8-a0d3-65d3-d703" name="Valerin 15MW Cannon" hidden="false" targetId="ab03-1625-57a5-d420" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e5-25a2-47b7-185d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f3b9-aed1-c0f9-c0a8" name="Kharmel Warbike Weapons" hidden="false" collective="false" defaultSelectionEntryId="cf8e-0355-e6b7-6cb7">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e3c-20c7-3374-4310" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78bf-ec60-7984-ebf0" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cf8e-0355-e6b7-6cb7" name="Bodkin Type 6 Rifle" hidden="false" targetId="15dc-cf3b-d30b-3a09" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="db89-7be6-8a28-b203" name="Ron hi-Ex Launcher" hidden="false" targetId="8f02-196e-0b47-e7d9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles>
+    <profile id="6658-5a5f-944f-1478" name="Moth Type 6 rifle" book="Patrol Angis" page="46" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25 cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="60 cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="2"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="0"/>
+      </characteristics>
+    </profile>
+    <profile id="8e5a-bbc0-3796-1784" name="Anvil 888" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25 cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="80 cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="4"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="a3fb-5e97-c831-3781" name="Moth Type 12 Launcher" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="20 cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="60 cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="b511-204b-88e6-3c1f" name="Muster Trooper" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkIV Aketon"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="834f-946d-6bc6-e2aa" name="MkIV Aketon" hidden="false" profileTypeId="c35f-321e-2ded-5535" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="017e-a287-23c6-d8d3" value="1"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="8774-4241-3ea7-bc34" value="None"/>
+      </characteristics>
+    </profile>
+    <profile id="3df1-ac98-2370-0077" name="Moth type 8 Pistol" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="10"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="20"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="1"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="0"/>
+      </characteristics>
+    </profile>
+    <profile id="27a6-8ec2-cd2b-756c" name="Ron hi-Ex Launcher" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="30"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="90"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="9d4e-36d1-03cc-47c7" name="Hobbes Bomb" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="7"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="13"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="4a0f-ef26-0cf9-dcb1" name="Angis AP Cannon" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="90"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="6"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="b790-6883-676a-1c82" name="Bodkin AP Howitzer" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="35"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="110"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="6"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="90e6-df2c-6579-cf9c" name="Fretan II Rail Gun" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="45"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="130"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="10"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="e5ed-d3bd-faf7-9106" name="Moth Type 88" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="30"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="100"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="3"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="4"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="6010-1efb-021c-a7ce" name="Valerin 15MW Cannon" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="30"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="120"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="9"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="8908-2101-2a1f-5e0b" name="Muster Emeritas" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkIV Aketon"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="9dad-42ad-43e5-31a1" name="Muster Majoris" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkIV Aketon"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="1e4b-fc10-a84a-6bab" name="Octa Sword" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value=""/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="a747-1afa-ba22-24dd" name="Tumbler Mpi" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="10"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="20"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="2"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="0ea4-aa68-20f1-5265" name="Tumbler Smg" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="15"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="25"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="2"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="5dc0-6b72-ce17-0917" name="PWP" hidden="false" profileTypeId="c35f-321e-2ded-5535" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="017e-a287-23c6-d8d3" value="2"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="8774-4241-3ea7-bc34"/>
+      </characteristics>
+    </profile>
+    <profile id="b622-8d1b-baf0-4793" name="Charlatan IV Launcher" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="70"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="d9ba-b194-f527-b341" name="MkVIII Harness" hidden="false" profileTypeId="c35f-321e-2ded-5535" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="017e-a287-23c6-d8d3" value="3"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="8774-4241-3ea7-bc34" value="Chameleon Circuit"/>
+      </characteristics>
+    </profile>
+    <profile id="8005-f83b-e77e-512a" name="Impact Gauntlet" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="4"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="4599-3c8e-c7e2-9aa5" name="Anda Missile Pod" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="40"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="110"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="5"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="5"/>
+      </characteristics>
+    </profile>
+    <profile id="0475-c505-8910-0971" name="Havalock Battlesuit" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="15"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkVIII Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="2903-b0b8-81da-58d4" name="MkV Harness" hidden="false" profileTypeId="c35f-321e-2ded-5535" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="017e-a287-23c6-d8d3" value="2"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="8774-4241-3ea7-bc34"/>
+      </characteristics>
+    </profile>
+    <profile id="1211-6ae7-5b3c-7fa0" name="Khamel warbike" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="20"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Tracked"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="8972-a4d8-2248-54b0" name="Bodkin Type 6 AP" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="20"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="120"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="5"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="0"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
