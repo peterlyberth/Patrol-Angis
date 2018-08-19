@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="12" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="13" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -482,6 +482,52 @@
         <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
         <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="bce5-7772-a81b-735b" name="MkV Alwite Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3df0-08ab-b6e9-800c" name="MkV Alwite Armour" hidden="false" targetId="488f-0c11-100d-c770" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91c2-f92d-de12-5bec" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b83-c9a1-fa60-3973" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5fe-3bc8-d349-bafc" name="MkII Noblesse" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8361-fa3c-0cfd-6358" name="MkII Noblesse" hidden="false" targetId="4d61-5219-3152-867a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bae-1856-cee0-13f4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6591-e317-8806-1210" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2042,13 +2088,10 @@ The owning Troop Element may be activated as many times as allowed by their choi
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
-Sized
-Vehicle"/>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="15cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
-        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkVIII
-Harness"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkVIII Harness"/>
         <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="4"/>
       </characteristics>
     </profile>
@@ -2058,9 +2101,7 @@ Harness"/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
-Sized
-Vehicle"/>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="20cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Tracked"/>
         <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Harness"/>
@@ -2125,8 +2166,7 @@ Vehicle"/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Portable
-Weapon"/>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Portable Weapon"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="6cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
         <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
@@ -2139,9 +2179,7 @@ Weapon"/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
-Sized
-Vehicle"/>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="18cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
         <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkX Harness"/>
@@ -2154,12 +2192,9 @@ Vehicle"/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
-Sized
-Vehicle"/>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry Sized Vehicle"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="30cm"/>
-        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Anti-Gravity
-(Repulsar)"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Anti-Gravity (Repulsar)"/>
         <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Harness"/>
         <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
       </characteristics>
@@ -2173,8 +2208,7 @@ Vehicle"/>
         <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="8cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
-        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
-Noblesse"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII Noblesse"/>
         <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="3"/>
       </characteristics>
     </profile>
@@ -2187,8 +2221,7 @@ Noblesse"/>
         <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
-        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
-Noblesse"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII Noblesse"/>
         <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="3"/>
       </characteristics>
     </profile>
@@ -2201,8 +2234,7 @@ Noblesse"/>
         <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
         <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10cm"/>
         <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
-        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
-Noblesse"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII Noblesse"/>
         <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="4"/>
       </characteristics>
     </profile>
