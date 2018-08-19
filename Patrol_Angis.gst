@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="11" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="12" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1524,7 +1524,7 @@ The owning Troop Element may be activated as many times as allowed by their choi
         <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
       </characteristics>
     </profile>
-    <profile id="c29d-de84-8a72-f2ca" name="Anvil 888" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+    <profile id="c29d-de84-8a72-f2ca" name="Anvil 888 Launcher" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1680,7 +1680,7 @@ The owning Troop Element may be activated as many times as allowed by their choi
         <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
       </characteristics>
     </profile>
-    <profile id="f608-8cfd-e888-c91b" name="Valerin 15MW Cannon" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+    <profile id="f608-8cfd-e888-c91b" name="Valerin 15Mw Laser Cannon" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1691,6 +1691,519 @@ The owning Troop Element may be activated as many times as allowed by their choi
         <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
         <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="9"/>
         <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="c96c-16a4-9ff8-23b2" name="Normal Clothing" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="-2"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="None"/>
+      </characteristics>
+    </profile>
+    <profile id="a76f-1941-4dff-2a98" name="MkIII Aketon Armour" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="0"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="None"/>
+      </characteristics>
+    </profile>
+    <profile id="488f-0c11-100d-c770" name="MkV Alwite Armour" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="3"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="Chameleon Circuit, Jump Jets"/>
+      </characteristics>
+    </profile>
+    <profile id="4d61-5219-3152-867a" name="MkII Noblesse" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="5"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="Chameleon Circuit, Ablative Shell Jump Jets"/>
+      </characteristics>
+    </profile>
+    <profile id="bcc4-703f-40f1-a4c7" name="MkV Harness Weave" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="2"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38"/>
+      </characteristics>
+    </profile>
+    <profile id="5a7c-e85c-630c-e34e" name="MkVIII Harness Weave" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="3"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="Chameleon Circuit"/>
+      </characteristics>
+    </profile>
+    <profile id="62c1-3732-56f3-fdb0" name="MkX Harness Weave" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Armour Rating" characteristicTypeId="67fc-9ec0-95d8-0d2b" value="5"/>
+        <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="Chameleon Circuit, Ablative Shell"/>
+      </characteristics>
+    </profile>
+    <profile id="bb81-eb15-ba8c-c40f" name="Angis Mk7 AP Rifle" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="30cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="70cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="4"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="0"/>
+      </characteristics>
+    </profile>
+    <profile id="b278-2bdf-25d7-f390" name="Angis Mk8 AP Pistol" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="15cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="30cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="a121-fa23-f7ce-576c" name="Hermit 44mm Plasma Rifle" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="18cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="40cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="c5ad-9690-e997-810e" name="Charlatan IV Launcher" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="70cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="065d-926c-6cf5-9abf" name="Minstrel Taser" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="10cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="20cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="6b80-da44-58a4-ea9d" name="Carnwennan Pistol" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="12cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="22cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="4 (Indirect Fire)"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="e7dd-eb7c-afba-8c6e" name="Bodkin Type 6 Rifle" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="20cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="120cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="5"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="8ff8-57c9-4a08-8d6c" name="Urgan 2 Bore Shotgun" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="10cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="25cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="f268-b5e9-914c-d710" name="Valerin 3Mw Laser Rifle" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="100cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="4"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="aee9-505f-5410-71ba" name="Valerin 9Mw Laser Rifle" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="25cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="100cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="6"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="42f2-e8ed-2956-6fe1" name="Pardoner Fire Projector" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="10cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="20cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="2 (Fire Corridor)"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="e1b7-1529-fa52-eacc" name="Discus Energy Projector" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="15cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="25cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="3 (Shocker)"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="eef5-551f-d736-9c72" name="Sequence Particle Beamer" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="30cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="90cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="6"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="b7da-8bc5-3c45-dbf8" name="Anda Missile Pod" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="40cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="110cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="1"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="5 (Indirect Fire)"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="5"/>
+      </characteristics>
+    </profile>
+    <profile id="6fff-e138-baa7-b4a3" name="Clamor Type 5 Maser Emitter" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="60cm"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="60cm"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="Maser Emitter"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374" value="Maser Emitter"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743" value="Maser Emitter"/>
+      </characteristics>
+    </profile>
+    <profile id="722e-f3b9-97ba-ef84" name="Roaz Powered Axe" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="b9b2-2d42-4b5a-bf43" name="Pelleas Powered Mace" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="2"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="6957-e3a1-dcea-2953" name="Desteria Impact Fist" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close Combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close Combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="3"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="b59f-d7ae-6544-b8f4" name="Battlesuit Impact Gauntlet" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close Combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close Combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="4"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="5fe0-a847-83e5-c492" name="Battlesuit Powered Spear or Sword" hidden="false" profileTypeId="8a69-d208-1b95-2ec7" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Point blank range" characteristicTypeId="a6a3-f4c4-d293-0542" value="Close Combat"/>
+        <characteristic name="In range" characteristicTypeId="e935-e495-9a6a-0a47" value="Close Combat"/>
+        <characteristic name="D8 rolled per shot" characteristicTypeId="2e0d-e084-947d-eb02" value="5"/>
+        <characteristic name="Weapon Strength" characteristicTypeId="60de-e769-1f1b-2374"/>
+        <characteristic name="AoE hits" characteristicTypeId="8002-db84-6c06-3743"/>
+      </characteristics>
+    </profile>
+    <profile id="1cae-c72b-55a7-ee29" name="Muster Centaris" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkIV Aketon"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="40d0-8b0e-8d9d-38ec" name="Havelock Battlesuit" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
+Sized
+Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="15cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkVIII
+Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="4"/>
+      </characteristics>
+    </profile>
+    <profile id="2a0f-ab31-330c-5259" name="Khamel Warbike" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
+Sized
+Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="20cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Tracked"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="53d8-085c-5cda-98f6" name="Retained Knight" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="12cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="6fda-5c9f-10be-27c3" name="Retained Banneret" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="12cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="4069-a9ec-5dc8-38d1" name="Retained Knight Errant" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="12cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="29d5-e6ec-6c7e-9c57" name="Retained Noble" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="12cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="5139-0c2d-c4f3-b131" name="Espaten Retained (Gun Crew)" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Portable
+Weapon"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="6cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Alwite"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="1"/>
+      </characteristics>
+    </profile>
+    <profile id="c716-c9b8-8b7a-39a9" name="Duxis Battlesuit" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
+Sized
+Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="18cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkX Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="5"/>
+      </characteristics>
+    </profile>
+    <profile id="4a15-9127-28e2-e05f" name="Ventus Model 201 Anti-Grav Steed" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry
+Sized
+Vehicle"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="30cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="Anti-Gravity
+(Repulsar)"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkV Harness"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="0769-71c2-59bc-26fd" name="Desteria Knight" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="8cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
+Noblesse"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="ca13-6679-3ba7-7fc7" name="Desteria Knight Errant" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
+Noblesse"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="f5bb-ff94-c5a5-45c7" name="Desteria Noble" hidden="false" profileTypeId="f90c-86a9-d494-e577" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Troop Type" characteristicTypeId="e4e6-359b-f3ff-2d25" value="Infantry"/>
+        <characteristic name="Movement rate" characteristicTypeId="a65c-a6e6-98c9-6092" value="10cm"/>
+        <characteristic name="Movement type" characteristicTypeId="9086-ef7e-d931-bf14" value="On Foot"/>
+        <characteristic name="Armour type" characteristicTypeId="9960-dbc6-364c-ee6b" value="MkII
+Noblesse"/>
+        <characteristic name="Max Damage rating" characteristicTypeId="2f36-66b6-a1bb-2895" value="4"/>
       </characteristics>
     </profile>
   </sharedProfiles>
