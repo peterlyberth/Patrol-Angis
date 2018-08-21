@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="13" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="15" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -99,395 +99,23 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <selectionEntry id="2600-5b86-4682-4927" name="Espaten portable weapon platform" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="4963-da02-571d-c9bb" name="New CategoryLink" hidden="false" targetId="2a7b-5813-b3b8-dbe3" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a8fb-36ea-5d42-d361" name="Muster Trooper" hidden="false" collective="false" type="model">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ec-6ce5-0ed4-aa36" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a11-e279-dcd9-c9cf" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="fb1a-f485-53dc-9554" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="5c1b-483e-4123-fce4" name="Trooper Weapon Choices" hidden="false" targetId="8145-88d6-73bf-4688" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks>
-                <categoryLink id="b4be-40e7-c405-8e5f" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="37d2-bb97-fb71-40ac" name="MkIV Aketon" hidden="false" targetId="8116-ce6f-3547-8b52" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="027c-4bec-a758-8793" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="12.0"/>
-            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3ad5-ff54-575e-dd2e" name="Platform weapons" hidden="false" targetId="1266-9fda-4bf2-10f1" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="348f-4e63-8b7f-4b75" name="PWP" hidden="false" targetId="37bc-8464-234e-9e79" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="45.0"/>
-        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="37bc-8464-234e-9e79" name="PWP" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b91c-f13e-345c-acd5" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed8c-a15a-ab5b-99f5" type="min"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="20.0"/>
-        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8116-ce6f-3547-8b52" name="MkIV Aketon" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="4e30-7b66-c8f4-10ee" name="MkIV Aketon" hidden="false" targetId="9c02-0ac0-8a7a-25a9" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e4-b112-adc5-704b" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cf-198d-2491-3262" type="min"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
-        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="34d3-9ff5-e9da-111e" name="Muster Trooper" hidden="false" collective="false" type="model">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb0-fd05-249f-4c71" type="max"/>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6201-0bdb-c997-9eac" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ad37-0b8f-764c-10ea" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="08fc-1bb2-82ac-2b55" name="Trooper Weapon Choices" hidden="false" targetId="8145-88d6-73bf-4688" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks>
-            <categoryLink id="5873-3482-d765-d20f" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-        </entryLink>
-        <entryLink id="9906-086f-a05f-5620" name="MkIV Aketon" hidden="false" targetId="8116-ce6f-3547-8b52" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="82fa-0465-4f5e-4467" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
-        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c1a9-ea97-a015-c953" name="Muster Infantry" hidden="false" collective="false" type="unit">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="f697-ef2d-81d0-bdb1" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="f11e-5f50-df3d-4997" name="Muster Trooper" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="2135-05f8-916c-8ca3" name="Muster Trooper" hidden="false" collective="false" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e030-0ecb-739e-986b" type="max"/>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b99-b27b-90ad-d9c1" type="min"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="b586-a1d5-fc90-8918" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="5862-d117-cb54-009e" name="Trooper Weapon Choices" hidden="false" targetId="8145-88d6-73bf-4688" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks>
-                    <categoryLink id="eb6d-dca1-1eaf-a973" name="New CategoryLink" hidden="false" targetId="bc96-6bcf-7c95-3c61" primary="false">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                    </categoryLink>
-                  </categoryLinks>
-                </entryLink>
-                <entryLink id="7e10-eed2-caf5-36f5" name="MkIV Aketon" hidden="false" targetId="8116-ce6f-3547-8b52" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="ac74-8524-2705-ea2a" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
-                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cc00-2496-3826-c56c" name="Muster Emeritas" hidden="false" collective="false" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="cc81-738b-45c9-c45d" name="Muster Emeritas" hidden="false" targetId="f404-7c26-5f71-025c" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="afa6-0577-a10c-0c01" name="MkIV Aketon" hidden="false" targetId="8116-ce6f-3547-8b52" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="dd27-aba7-ec25-74c1" name="Emeritas weapon choice" hidden="false" targetId="8669-abba-c96e-4dc3" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="dc76-59e4-bd5e-0a56" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
-                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1d6b-a659-1baa-06a8" name="Muster Majoris" hidden="false" collective="false" type="model">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="4e2f-ee04-ff27-2a73" name="Majoris weapon choices" hidden="false" targetId="a89f-1744-1614-09ff" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="2e41-0251-e158-1380" name="MkIV Aketon" hidden="false" targetId="8116-ce6f-3547-8b52" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="1a96-8da1-1ec5-9aa8" name="Special Rules for Infantry Muster" hidden="false" targetId="a256-1165-bef7-12b6" type="selectionEntryGroup">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="11.0"/>
-                <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="0.0"/>
-        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="bce5-7772-a81b-735b" name="MkV Alwite Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="3df0-08ab-b6e9-800c" name="MkV Alwite Armour" hidden="false" targetId="488f-0c11-100d-c770" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7ce-da41-5cad-4b64" name="Chameleon Circuit" hidden="false" targetId="e19e-47bc-84cc-0d7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bed6-de77-b061-af95" name="Jump Jets" hidden="false" targetId="eb23-c1ff-0193-b731" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -505,6 +133,7 @@
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e5fe-3bc8-d349-bafc" name="MkII Noblesse" book="" hidden="false" collective="false" type="upgrade">
@@ -512,6 +141,24 @@
       <rules/>
       <infoLinks>
         <infoLink id="8361-fa3c-0cfd-6358" name="MkII Noblesse" hidden="false" targetId="4d61-5219-3152-867a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="852a-d88a-49e6-ec74" name="Ablative Shell" hidden="false" targetId="28c0-4bc6-dd65-f572" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d1fe-45fa-aacc-0dcb" name="Chameleon Circuit" hidden="false" targetId="e19e-47bc-84cc-0d7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a76d-6040-f8cc-d290" name="Jump Jets" hidden="false" targetId="eb23-c1ff-0193-b731" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -527,7 +174,405 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe26-39a3-28d9-cd25" name="Havelock Battlesuit" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e516-39e9-58f5-8f3f" name="Havelock Battlesuit" hidden="false" targetId="40d0-8b0e-8d9d-38ec" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="535d-ba2b-b901-9e57" name="MkVIII Harness" hidden="false" targetId="c39a-07e8-5da9-66be" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01be-0dbd-ba89-1a47" name="Moth Type 6 Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="576c-a6b3-093e-216a" name="Moth Type 6 rifle" hidden="false" targetId="0d3c-1d2b-769a-d55d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddf9-95a0-1814-4dc8" name="Moth Type 8 Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3da6-27ff-e419-a67a" name="Moth type 8 Pistol" hidden="false" targetId="5d5c-7caa-68a6-2d77" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0aff-80ed-0172-75c2" name="Tumbler SMG" book="" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="11e0-43e7-f074-3c82" name="Tumbler Smg" hidden="false" targetId="c6e0-1e21-dbfb-793b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62ad-0412-d8b2-202c" name="Tumbler MPI" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4da4-e66c-87c9-805a" name="Tumbler Mpi" hidden="false" targetId="beb5-4e14-6d39-a7be" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c39a-07e8-5da9-66be" name="MkVIII Harness Weave" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f5cd-a64b-4971-0333" name="MkVIII Harness Weave" hidden="false" targetId="5a7c-e85c-630c-e34e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="210d-9279-b80e-8ef7" name="Chameleon Circuit" hidden="false" targetId="e19e-47bc-84cc-0d7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8b2-9bc0-3e10-2076" name="Normal Clothing" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e70d-e937-13bc-3661" name="Normal Clothing" hidden="false" targetId="c96c-16a4-9ff8-23b2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
+    </selectionEntry>
+    <selectionEntry id="c595-955c-18b6-1141" name="MkIII Aketon Armour (Planetary Militia)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="32ce-709e-edb8-6d95" name="MkIII Aketon Armour" hidden="false" targetId="a76f-1941-4dff-2a98" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40da-41ee-390e-114f" name="MkIV Aketon Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f363-037c-1348-b37c" name="MkIV Aketon" hidden="false" targetId="9c02-0ac0-8a7a-25a9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5d8-58df-9960-c7d1" name="Portable Weapon Plating" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d323-eed1-f1ba-fb43" name="PWP" hidden="false" targetId="0142-1878-48f5-9090" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae53-5494-2969-04bc" name="MkV Harness Weave" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6bce-fcd2-cd0b-80f6" name="MkV Harness Weave" hidden="false" targetId="bcc4-703f-40f1-a4c7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86e4-3658-9df5-cde7" name="MkX Harness Weave" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="afd7-d16c-bf99-ff2a" name="Chameleon Circuit" hidden="false" targetId="e19e-47bc-84cc-0d7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="15f8-0ac2-82ac-6d20" name="Ablative Shell" hidden="false" targetId="28c0-4bc6-dd65-f572" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e05b-0a71-807b-3a85" name="MkX Harness Weave" hidden="false" targetId="62c1-3732-56f3-fdb0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4acf-57e8-e4d2-3415" name="Angis Mk7 AP Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d8e8-a500-2c11-388f" name="Angis Mk7 AP Rifle" hidden="false" targetId="bb81-eb15-ba8c-c40f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad3d-a502-7783-9ef1" name="Angis Mk8 AP Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="55fd-a54e-1593-f1c6" name="Angis Mk8 AP Pistol" hidden="false" targetId="b278-2bdf-25d7-f390" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b16-a486-f887-833c" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3b5e-4861-c4d4-bc7d" name="Hermit 44mm Plasma Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a49f-ba74-2fef-46ac" name="Hermit 44mm Plasma Rifle" hidden="false" targetId="a121-fa23-f7ce-576c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77e8-ded5-ae24-647f" name="Charlatan IV Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0650-d591-01c1-db64" name="Charlatan IV Launcher" hidden="false" targetId="c5ad-9690-e997-810e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94e4-6eec-7b95-6a5d" name="Minstrel Taser" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="96e6-6378-857c-fdf4" name="Minstrel Taser" hidden="false" targetId="065d-926c-6cf5-9abf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="25.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1332,6 +1377,189 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
+    <selectionEntryGroup id="ae3e-3788-11df-ff36" name="Desteria Knight weapons" hidden="false" collective="false" defaultSelectionEntryId="e458-cb1d-2a56-fe3d">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e458-cb1d-2a56-fe3d" name="Urgan 2 Bore Shotgun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2e2f-ce51-4676-9420" name="Urgan 2 Bore Shotgun" hidden="false" targetId="8ff8-57c9-4a08-8d6c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="25.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4181-74a0-4761-7d25" name="Hermit Plasma Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e815-60b2-0392-90be" name="Hermit 44mm Plasma Rifle" hidden="false" targetId="a121-fa23-f7ce-576c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="18.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3948-8a1d-d092-9977" name="Valerin 9MW Laser" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a43b-72c1-d214-2f9e" name="Valerin 9Mw Laser Rifle" hidden="false" targetId="aee9-505f-5410-71ba" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="38.0"/>
+            <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7960-014a-d0be-d640" name="Havelock Battlesuit" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006e-6fdf-be0f-5952" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0619-5f51-c5e4-1605" name="Infantry sized vehicle" hidden="false" targetId="1acd-574e-80b5-4549" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a831-491b-3378-1384" name="Havelock Battlesuit" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f0fc-fa6b-b1d8-3bed" name="Havelock Battlesuit" hidden="false" targetId="40d0-8b0e-8d9d-38ec" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="ceb5-c4c9-63d1-8080" name="MkVIII Harness" book="" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6efb-d372-4456-af5b" name="MkVIII Harness Weave" hidden="false" targetId="5a7c-e85c-630c-e34e" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1b44-e99e-4e5f-0fb6" name="Chameleon Circuit" hidden="false" targetId="e19e-47bc-84cc-0d7e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dab-24a4-027a-843d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0c-e1af-8a9f-5766" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="14b9-f7bb-90dc-d7a1" name="Havelock Battlesuit Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="1222-f9d3-185e-ef7c" name="Moth Type 88" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a715-7e6d-d2cd-6a98" name="Moth Type 88" hidden="false" targetId="8078-003c-5ded-b7c0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="28c0-4bc6-dd65-f572" name="Ablative Shell" hidden="false">
@@ -1508,7 +1736,7 @@ The owning Troop Element may be activated as many times as allowed by their choi
         <characteristic name="Built in countermeasures " characteristicTypeId="1116-8d52-b3b7-4e38" value="None"/>
       </characteristics>
     </profile>
-    <profile id="0142-1878-48f5-9090" name="PWP" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
+    <profile id="0142-1878-48f5-9090" name="Portable Weapon Plating" hidden="false" profileTypeId="8170-a4ad-d3b6-e737" profileTypeName="Armour">
       <profiles/>
       <rules/>
       <infoLinks/>
