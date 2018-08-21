@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="17" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="5a3d-97ad-1a64-4197" name="Patrol Angis" book="Patrol Angis" revision="18" battleScribeVersion="2.01" authorName="Peter Lyberth" authorContact="peterlyberth@gmail.com" authorUrl="http://peterlyberth@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -395,7 +395,10 @@
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eea9-6791-76b8-5275" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1be9-df8d-028f-8679" type="min"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1926,6 +1929,7 @@
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="45.0"/>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e568-216f-c760-9884" name="Havelock Battlesuit" hidden="false" collective="false" type="upgrade">
@@ -2122,6 +2126,364 @@
       <costs>
         <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
         <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5d5-ebf8-5c24-fcdf" name="Retained Varlet" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9732-1084-86ec-850f" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bfff-c165-b8cd-584a" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66bc-1ad2-7bb7-0bd7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1d-f9d2-f31d-2abd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ca79-7b3e-b6bf-1953" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e2a7-6b7a-671a-1713" name="Retained Knight Weapon Options" hidden="false" targetId="423c-0e5a-a250-30dd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82b3-9d5b-8613-8615" name="Retained Esquire" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bf1e-a404-b533-fb17" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1d5e-1ad7-8e80-66d9" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a843-f741-96f5-456b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca2-e499-ecbe-0d78" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a7d9-e2a3-cf08-7529" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="67b3-3b13-7dcc-5efe" name="Retained Knight Weapon Options" hidden="false" targetId="423c-0e5a-a250-30dd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87cd-8deb-e2d7-8ac1" name="Retained Jupon" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f75e-3a65-0867-f761" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6832-b95e-f30f-dc16" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1b-3a16-06c5-b664" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a662-921f-97d1-a8fa" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="41fc-2051-b28e-29fb" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e8c1-e03a-ee53-37b0" name="Retained Knight Weapon Options" hidden="false" targetId="423c-0e5a-a250-30dd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b0d-8aca-5b0a-3d7b" name="Retained Knight" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5ecb-291c-3bff-da48" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="58f4-0abb-679c-820a" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96a-309b-4947-bef3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e3-3497-caef-ba0b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="abbd-b9b8-dcb2-d6a0" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2532-ef6a-157a-0e79" name="Retained Knight Weapon Options" hidden="false" targetId="423c-0e5a-a250-30dd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18c5-87c2-8ce7-6e86" name="Retained Banneret" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="78ed-8e69-e4e1-17da" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e02c-430c-c82e-7a75" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="173f-bb85-2971-61f2" name="Discus Energy Projector" hidden="false" targetId="3a6f-3c25-102d-bf74" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c03-ff73-49d0-f3d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d825-723b-ae22-c732" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bc12-7dbc-afc7-dafa" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bf7-dd4f-9ebc-e806" name="Retained Knight Errant" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1ffe-b470-3435-377d" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="872b-0460-cb1e-6611" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bd5a-ab82-0a60-1d50" name="Carnwennan Pistol" hidden="false" targetId="0b16-a486-f887-833c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf62-f945-1376-1a3b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6096-1323-b639-a49d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f55b-b455-0efc-5cae" name="Octa Powered Sword" hidden="false" targetId="6866-a073-a945-ad80" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076f-88ee-f739-f261" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ed-ba59-f9d2-7065" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8d63-a72a-b718-3dbc" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a335-35ba-0885-52eb" name="Retained Alouten" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c963-b94f-e478-a588" name="Retained Knight" hidden="false" targetId="53d8-085c-5cda-98f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="47ed-0cb7-b4cd-322b" name="MkV Alwite Armour" hidden="false" targetId="bce5-7772-a81b-735b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="575d-9aab-f323-6440" name="Special Rules for Retained Knights" hidden="false" targetId="b70c-159e-16bd-45a7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e4ff-983d-92cb-3a38" name="Retained Knight Weapon Options" hidden="false" targetId="423c-0e5a-a250-30dd" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Models" costTypeId="7e7c-ab68-f0fe-120b" value="1.0"/>
+        <cost name="Points" costTypeId="9632-d6e2-ab3e-91d4" value="12.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2677,6 +3039,225 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="0996-a5fc-fe09-e7d9" name="Hobbes Bomb" hidden="false" targetId="3023-3906-60e2-fa75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b70c-159e-16bd-45a7" name="Special Rules for Retained Knights" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3775-a469-c404-62d5" name="Brawler" hidden="false" targetId="c84c-e6c8-1814-f230" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5071-330c-83d0-f136" name="Assaulter" hidden="false" targetId="0ec1-bc91-5498-c96d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7af4-e91d-d2ff-9e17" name="Calmer" hidden="false" targetId="95b9-4804-e2d2-58fc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e87e-5d36-2fbb-60d6" name="Commander" hidden="false" targetId="2618-2067-b051-0eb2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ee17-272b-31cc-561a" name="Comms gear" hidden="false" targetId="2d3c-ad0e-5567-5a0c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3a45-e929-dea3-16ab" name="Loader" hidden="false" targetId="6e83-064e-617c-0d94" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="33e9-b599-4af4-08c2" name="Medic" hidden="false" targetId="cec4-b7d5-0c77-4ae5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7023-a8f0-f50e-b38d" name="Patrol" hidden="false" targetId="2baf-a327-5a81-3d4d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a0d2-5c12-7bbe-6476" name="Protector" hidden="false" targetId="45ef-9e45-08f6-b363" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2454-c889-f719-d9dc" name="Signalier" hidden="false" targetId="23fa-55f6-3430-3ce6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ade7-12d1-317c-18c2" name="Sniper" hidden="false" targetId="5f5d-0c72-e64d-5395" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8ccd-e3d8-e1c0-d77e" name="Untried" hidden="false" targetId="e38e-6f18-7175-3533" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="636e-f061-4a2e-d829" name="Valour" hidden="false" targetId="13f5-1be5-5d4b-fa92" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a73c-9f15-dc4a-5777" name="Veteran" hidden="false" targetId="31ab-9abc-6cc5-e116" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="423c-0e5a-a250-30dd" name="Retained Knight Weapon Options" book="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1e4-8ca9-2355-0eec" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9108-642e-f0f5-a623" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="270d-9120-b88a-1ec3" name="Angis Mk7 AP Rifle" hidden="false" targetId="4acf-57e8-e4d2-3415" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8f4f-b252-3434-0cef" name="Anvil 888 Launcher" hidden="false" targetId="1670-75b2-3905-5721" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1f0b-3a65-de78-da16" name="Moth Type 12 Launcher" hidden="false" targetId="149f-ebfe-157a-7e61" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dae5-0317-ab61-e3fd" name="Hermit 44mm Plasma Rifle" hidden="false" targetId="3b5e-4861-c4d4-bc7d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7149-a607-48ec-1a18" name="Minstrel Taser" hidden="false" targetId="94e4-6eec-7b95-6a5d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d17a-b50c-3e4c-d1bc" name="Tumbler MPI" hidden="false" targetId="62ad-0412-d8b2-202c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="50c3-92bc-7a3c-6d0c" name="Angis Mk8 AP Pistol" hidden="false" targetId="ad3d-a502-7783-9ef1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b096-cdcd-4698-e3b0" name="Hobbes Bomb" hidden="false" targetId="3023-3906-60e2-fa75" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a550-7e1a-587b-7197" name="Roaz Powered Axe" hidden="false" targetId="93b4-c96a-4bb7-8659" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2e7c-ec38-a335-abc5" name="Octa Powered Sword" hidden="false" targetId="6866-a073-a945-ad80" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
